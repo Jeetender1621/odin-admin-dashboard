@@ -5,11 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin | Admin-Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
+            <div class="header-one">
+                <div class="searcher-div">
+                    <img src="./svg/search.svg" class="search-icon">
+                    <input type="search" name="search" class="search-bar">
+                </div>
+                <div class="bell-profile">
+                    <img src="./svg/bell.svg" alt="bell-icon" class="bell-icon">
+                    <img src="./svg/deadpool.svg" alt="user-icon" class="user-icon">
+                    <h2 class="user">Deadpool</h2>
+                </div>
+            </div>
+            <div class="header-two">
+                <div class="user-details">
+                    <img src="./svg/deadpool.svg" alt="user-img" class="user-img">
+                    <div class="user-greetings">
+                        <h4>Hi there,</h4>
+                        <h2>Deadpool (@deadpool)</h2>
+                    </div>
+                </div>
+                <div class="user-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
         </header>
         <div class="sidebar-one">
             <div class="dashboard">
@@ -40,7 +71,7 @@
                     </li>
                     <li class="community">
                         <img src="./svg/community.svg" alt="community" class="community-icon">
-                        <h2 class="profile-header">Communities</h2>
+                        <h2 class="profile-header">Community</h2>
                     </li>
                 </ul>
             </nav>
@@ -64,6 +95,61 @@
         <main>
         </main>
         <div class="sidebar-two">
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="announcements-container">
+                    <div class="site-maintenance">
+                        <h4>Site Maintenance</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repudiandae qui...</p>
+                    </div>
+                    <hr>
+                    <div class="community-share">
+                        <h4>Community Share Day</h4>
+                        <p>Optio repudiandae qui, perferendis amet officiis saepe. adipisicing elit...</p>
+                    </div>
+                    <hr>
+                    <div class="privacy-updated">
+                        <h4>Updated Privacy Policy</h4>
+                        <p>Adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <h2>Trending</h2>
+                <div class="trending-container">
+                    <div>
+                        <img src="./svg/spiderman.svg" alt="spiderman-img" class="user-icon">
+                        <span class="trending-users">
+                            <p>@spiderman</p>
+                            <h4>Spider Man</h4>
+                        </span>
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="./svg/ironman.svg" alt="ironman-img" class="user-icon">
+                        <span class="trending-users">
+                            <p>@ironman</p>
+                            <h4>Iron Man</h4>
+                        </span>
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="./svg/batman.svg" alt="batman" class="user-icon">
+                        <span class="trending-users">
+                            <p>@batman</p>
+                            <h4>Batman</h4>
+                        </span>
+                    </div>
+                    <hr>
+                    <div>
+                        <img src="./svg/wolverine.svg" alt="wolverine" class="user-icon">
+                        <span class="trending-users">
+                            <p>@wolverine</p>
+                            <h4>Wolverine</h4>
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer>
             <p class="copyright">Copyright &copy; Jeetender1621 2024</p>
