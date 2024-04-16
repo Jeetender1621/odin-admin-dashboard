@@ -31,6 +31,7 @@ header{
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+
 .header-two{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -234,7 +235,7 @@ footer{
 @media screen and (max-width: 1200px) {
     .container {
         display: grid;
-        grid-template-columns: 2fr 3fr 1fr;
+        grid-template-columns: 2fr 3fr 2fr;
     }
     .search-bar{
         height: 40%;
@@ -250,5 +251,10 @@ footer{
     .search-bar{
         height: 50%;
         font-size: 2rem;
+    }
+
+    .header-one{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 }
