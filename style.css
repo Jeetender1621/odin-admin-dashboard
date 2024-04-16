@@ -50,6 +50,7 @@ header{
     border-radius: 20px;
     background-color: #e3e5e6;
     padding: 1.15vw;
+    font-size: 1.5rem;
 }
 
 .bell-profile {
@@ -235,5 +236,9 @@ footer{
     .container {
         display: grid;
         grid-template-columns: 1.6fr 3fr 2fr;
+    }
+    .search-bar{
+        height: 50%;
+        font-size: 2rem;
     }
 }
