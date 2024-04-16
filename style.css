@@ -5,15 +5,16 @@
 }
 
 body{
+    height: 100vh;
+    width: 100%;
+    max-width: 100%; 
     font-family: "Roboto",sans-serif
 }
 
 .container{
-    height: 100vh;
-    width: 100vw;
     --svg-width: min(28px, 50%);
     display: grid;
-    grid-template-rows: 2fr 10fr 1fr;
+    grid-template-rows: 2fr 10fr 0.5fr;
     grid-template-columns: 1fr 3fr 1fr;
 }
 
@@ -225,6 +226,7 @@ footer{
     grid-row: 3/4;
     grid-column: 1/-1;
     text-align: center;
+    font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
