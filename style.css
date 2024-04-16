@@ -231,11 +231,21 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .container {
         display: grid;
-        grid-template-columns: 1.6fr 3fr 2fr;
+        grid-template-columns: 2fr 3fr 1fr;
+    }
+    .search-bar{
+        height: 40%;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 3fr 2fr;
     }
     .search-bar{
         height: 50%;
